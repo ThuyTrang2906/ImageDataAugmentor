@@ -309,3 +309,7 @@ class DataFrameIterator(BatchFromFilesMixin, Iterator):
         return self._sample_weight
     
     #hello
+    
+@property
+    def sample_weight(self):
+        return self._sample_weight
